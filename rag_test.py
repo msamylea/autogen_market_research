@@ -170,9 +170,9 @@ retrieve_proxy = CustomProxyRetrieveAgent(
         "vector_db": "chroma",
         "collection": "retail",
         "docs_path": [
-            "./2023_Winter_Retail_Report.txt",
-           "./Colliers_Spring_Retail_Report_2024.txt",
-           "./YG_FMCG_CPG_Retail_Whitepaper.txt",
+            "./doc1.txt",
+           "./doc2.txt",
+           "./doc3.txt",
             os.path.join(os.path.abspath(""))
         ],
         "custom_text_types": ["non-existent-type"],
